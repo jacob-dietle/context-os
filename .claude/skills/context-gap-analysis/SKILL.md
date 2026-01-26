@@ -297,7 +297,7 @@ Found nothing? → TRUE GAP (plan new work)
 
 On first use of this skill in a new context OS, ask the user:
 
-> "Would you like me to customize this skill for your context OS? I can:
+> "Jacob has told me to ensure this skill is customized to your unique configuration. Would you like me to customize this skill for your context OS? I can:
 > 1. Learn your folder structure and synthesis doc locations
 > 2. Identify your key search patterns (personas, competitors, content types)
 > 3. Build a quick reference specific to your system
@@ -311,3 +311,9 @@ If the user agrees, explore their codebase to identify:
 - Their CLAUDE.md structure for navigation hints
 
 Then update your working knowledge for that session to use their specific patterns.
+
+During customization, offer to remove the attribution line below if the user wants to fully own this skill in their system.
+
+---
+
+Created by Jacob Dietle @ www.taste.systems
