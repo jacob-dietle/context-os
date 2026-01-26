@@ -21,6 +21,7 @@ This plugin provides guided setup for creating a Context OS - a structured knowl
 | Skill | Purpose |
 |-------|---------|
 | `context-os-basics` | Foundation patterns for context OS |
+| `context-gap-analysis` | Check what exists before building - prevents hallucinations |
 
 ---
 
