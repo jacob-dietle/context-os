@@ -52,8 +52,10 @@ In 10 minutes you'll have:
 - Ontology rules
 - Knowledge node format
 
-### Skill
+### Skills
 - `context-os-basics` - Foundation patterns
+- `epistemic-context-grounding` - Ground decisions in domain knowledge before designing
+- `context-gap-analysis` - Check what exists before building
 
 ## How It Works
 
