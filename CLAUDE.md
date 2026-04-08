@@ -23,6 +23,7 @@ This plugin provides guided setup for creating a Context OS - a structured knowl
 | `context-os-basics` | Foundation patterns for context OS |
 | `epistemic-context-grounding` | Ground decisions in domain knowledge before designing - prevents wrong solutions |
 | `context-gap-analysis` | Check what exists before building - prevents hallucinations |
+| `context-os-cli` | Query work context, file activity, heat metrics, and knowledge graph via context-os CLI |
 
 ---
 
