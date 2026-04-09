@@ -2,8 +2,7 @@
 
 Build your first context operating system in 10 minutes. A structured knowledge graph where AI compounds intelligence over time.
 
-<!-- TODO: Add video embed when published -->
-<!-- [![Context OS v2: Stigmergic Design](thumbnail.png)](VIDEO_URL) -->
+[![Watch the GTM Context OS Quickstart](https://img.youtube.com/vi/acI1zRtpgEc/maxresdefault.jpg)](https://youtu.be/acI1zRtpgEc)
 
 ---
 
