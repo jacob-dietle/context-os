@@ -4,6 +4,8 @@ Build your first context operating system in 10 minutes. A structured knowledge 
 
 [![Watch the GTM Context OS Quickstart](https://img.youtube.com/vi/acI1zRtpgEc/maxresdefault.jpg)](https://youtu.be/acI1zRtpgEc)
 
+> **Note:** This video shows v1. A v2 walkthrough covering the stigmergic design + context-os CLI is in production.
+
 ---
 
 ## v1 → v2: What Changed and Why

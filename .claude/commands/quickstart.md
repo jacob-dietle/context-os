@@ -14,10 +14,16 @@ Be adaptive. Meet users where they are. Context OS is emergent architecture — 
 
 ## Step 0: Assess Starting Point
 
-**FIRST**, before any welcome message, check what exists:
+**FIRST**, before any welcome message, check two things:
 
-1. List the target directory
-2. Look for existing content: transcripts, docs, notes, raw files
+1. **Check if context-os CLI is installed:** Run `context-os --version`. If it fails, tell the user:
+   "The context-os CLI is required for graph queries and file heat tracking. Install it first:
+   - macOS/Linux: `curl -fsSL https://install.tastematter.dev/install-context-os.sh | bash`
+   - Windows: `irm https://install.tastematter.dev/install-context-os.ps1 | iex`
+   Then run `/quickstart` again."
+   **Stop here if CLI is not installed.**
+
+2. List the target directory and look for existing content: transcripts, docs, notes, raw files
 
 **If directory is empty or doesn't exist:**
 → Go to Step 1A (Blank Slate)
