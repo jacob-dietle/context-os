@@ -99,7 +99,7 @@ User will provide either:
 ## Quality Standards
 
 - Every node must have complete frontmatter
-- Tags must exist in taxonomy.yaml (warn if new)
+- Use tags consistent with existing nodes in the graph
 - Related concepts should use [[wiki-link]] format
 - Include source attribution always
 - Status starts as 'emergent' unless user specifies otherwise

@@ -1,4 +1,4 @@
-# GTM Context OS Quickstart Plugin
+# GTM Context OS Quickstart
 
 **Purpose:** Help users build their first context operating system in 10 minutes.
 
@@ -6,7 +6,7 @@
 
 ## What This Plugin Does
 
-This plugin provides guided setup for creating a Context OS - a structured knowledge system where AI compounds intelligence over time.
+Provides guided setup for creating a Context OS — a structured knowledge graph where AI compounds intelligence over time. The system uses stigmergic coordination: agents read and modify the shared environment, knowledge compounds through use.
 
 ### Commands
 
@@ -14,15 +14,14 @@ This plugin provides guided setup for creating a Context OS - a structured knowl
 |---------|---------|
 | `/quickstart` | 10-minute guided setup experience |
 | `/ingest` | Process raw content into knowledge graph |
-| `/graph-health` | Check system health and get recommendations |
 
 ### Skills
 
 | Skill | Purpose |
 |-------|---------|
 | `context-os-basics` | Foundation patterns for context OS |
-| `epistemic-context-grounding` | Ground decisions in domain knowledge before designing - prevents wrong solutions |
-| `context-gap-analysis` | Check what exists before building - prevents hallucinations |
+| `epistemic-context-grounding` | Ground decisions in domain knowledge before designing |
+| `context-gap-analysis` | Check what exists before building |
 
 ---
 
@@ -31,11 +30,10 @@ This plugin provides guided setup for creating a Context OS - a structured knowl
 Run `/quickstart` to begin. The guide will:
 
 1. Ask what your context OS is for (GTM, Product, Research)
-2. Create appropriate directory structure
-3. Generate CLAUDE.md navigation guide
-4. Set up taxonomy and ontology rules
-5. Process your first piece of content
-6. Verify it works
+2. Create the two-layer directory structure (knowledge graph + operational docs)
+3. Generate CLAUDE.md navigation guide with context-os CLI commands
+4. Process your first piece of content into a structured knowledge node
+5. Verify it works
 
 Total time: ~10 minutes
 
@@ -45,21 +43,32 @@ Total time: ~10 minutes
 
 ### Two-Layer Architecture
 
-**Layer 1: Atomic Knowledge** (knowledge_base/)
-- Individual reusable concepts
-- Structured with frontmatter metadata
-- Linked via [[wiki-links]]
+**Knowledge Graph** (knowledge_base/)
+- Atomic, reusable concepts with frontmatter metadata
+- Linked via [[wiki-links]] — the graph has structure
+- Lifecycle: `emergent` → `validated` (2+ citations) → `canonical`
 
-**Layer 2: Operational Docs** (00_foundation/)
-- Strategic documents that compose Layer 1
-- Positioning, messaging, processes
-- Reference atomic concepts, don't redefine them
+**Operational Docs** (00_foundation/)
+- Strategic documents that compose from the graph
+- They reference atomic concepts, they don't redefine them
 
-### Key Files
+### Key Principle: SENSE → ORIENT → ACT → DEPOSIT
 
-- `CLAUDE.md` - Navigation guide (AI reads this first)
-- `taxonomy.yaml` - Blessed tags for your domain
-- `ontology.yaml` - How concepts relate to each other
+Every interaction follows this loop:
+- **SENSE** — Check what exists (graph-exec, heat queries)
+- **ORIENT** — Find hub nodes, read coordination surfaces
+- **ACT** — Create/update content
+- **DEPOSIT** — Link to existing nodes, reinforce the graph through use
+
+### Context-OS CLI
+
+The CLI provides structural queries over your knowledge graph:
+
+```bash
+context-os graph-exec --graph knowledge_base '<js>'  # Structural graph queries
+context-os query heat --time <N>d                     # What's active
+context-os context "<query>"                          # Broad project context
+```
 
 ---
 
@@ -67,15 +76,13 @@ Total time: ~10 minutes
 
 | Template | Purpose |
 |----------|---------|
-| `CLAUDE_MD_STARTER.md` | Navigation guide starter |
-| `taxonomy_starter.yaml` | Basic tag structure |
-| `ontology_starter.yaml` | Relationship definitions |
-| `node_template.md` | Knowledge node format |
-| `sample-transcript.md` | Example content for testing |
+| `CLAUDE_MD_STARTER.md` | Navigation guide with CLI integration |
+| `node_template.md` | Knowledge node frontmatter format |
+| `sample-transcript.md` | Example content for testing ingestion |
 
 ---
 
 ## Learn More
 
-For advanced patterns (Chief of Staff orchestration, team governance, enterprise taxonomy):
+For advanced patterns (multi-agent orchestration, client engagement systems, enterprise context architectures):
 https://taste.systems
