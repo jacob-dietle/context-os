@@ -130,3 +130,11 @@ context-os context "positioning"
 ## Learn More
 
 For advanced patterns (multi-agent orchestration, client engagement systems, enterprise context architectures): [taste.systems](https://taste.systems)
+
+---
+
+## License & Scope
+
+This repo — templates, skills, setup guides, examples — is MIT-licensed. Fork it, adapt it, ship your own. See [LICENSE](LICENSE).
+
+The **context-os CLI** (installed by `install-context-os.sh`) is a separate product. It's free to download and use, but the source is not open. The binary is distributed via release artifacts; the install script in this repo points at those releases.
