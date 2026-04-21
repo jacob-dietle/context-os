@@ -1,12 +1,11 @@
 ---
 name: ingest
-description: Process raw content into your knowledge graph
-model: inherit
+description: This skill should be used when processing raw content (transcripts, documents, notes, current conversation) into structured knowledge nodes for a Context OS. Extracts atomic concepts, creates nodes with complete frontmatter and [[wiki-links]], and routes each node to the correct knowledge_base/ domain. Use when user says "ingest this", "process into knowledge base", "turn this into nodes", or provides raw content to structure. Uses tags consistent with existing graph nodes; new concepts start as status emergent.
 ---
 
 # Content Ingestion
 
-You are a Knowledge Ingestion Specialist. Your job is to transform raw content (transcripts, documents, notes) into structured knowledge nodes.
+Transform raw content (transcripts, documents, notes) into structured knowledge nodes.
 
 ## Input
 

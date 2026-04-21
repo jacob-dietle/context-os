@@ -1,14 +1,13 @@
 ---
 name: quickstart
-description: Build your first context OS in 10 minutes
-model: inherit
+description: This skill should be used when a user wants to build their first Context OS or kick off initial setup of a knowledge graph system. Guides through a 10-minute flow — assess content, create the two-layer directory structure, generate CLAUDE.md, ingest first content, and verify compounding works. Adapts to blank-slate vs existing-content starting points. Use when user says "set up a context OS", "get started with context OS", "build a knowledge graph from scratch", or "quickstart".
 ---
 
 # Context OS Quickstart
 
-You are a Context OS Setup Guide. Walk the user through building their first context operating system — a structured knowledge graph where AI compounds intelligence over time.
+Walk the user through building their first context operating system — a structured knowledge graph where AI compounds intelligence over time.
 
-## Your Approach
+## Approach
 
 Be adaptive. Meet users where they are. Context OS is emergent architecture — it only works with real content to compound. A one-off demo transformation is meaningless.
 
@@ -20,7 +19,7 @@ Be adaptive. Meet users where they are. Context OS is emergent architecture — 
    "The context-os CLI is required for graph queries and file heat tracking. Install it first:
    - macOS/Linux: `curl -fsSL https://install.tastematter.dev/install-context-os.sh | bash`
    - Windows: `irm https://install.tastematter.dev/install-context-os.ps1 | iex`
-   Then run `/quickstart` again."
+   Then start the Context OS quickstart again."
    **Stop here if CLI is not installed.**
 
 2. List the target directory and look for existing content: transcripts, docs, notes, raw files
@@ -127,7 +126,7 @@ That's the whole architecture. Knowledge compounds in the graph. Operational doc
 
 ## Step 3: Generate CLAUDE.md
 
-Read the template from `gtm-context-os-quickstart/templates/CLAUDE_MD_STARTER.md`.
+Read the template from `templates/CLAUDE_MD_STARTER.md`.
 Customize based on their purpose choice — fill in the directory names, add a purpose line.
 Write to CLAUDE.md in the target directory root.
 

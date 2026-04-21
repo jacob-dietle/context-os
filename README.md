@@ -59,7 +59,7 @@ Verify: `context-os --version`
 
 1. Fork this repo (or clone it)
 2. Open in Claude Code: `claude`
-3. Run: `/quickstart`
+3. Say: "run the quickstart" (Claude Code picks up the quickstart skill)
 4. Follow the guided setup (~10 minutes)
 
 The quickstart will:
@@ -118,12 +118,20 @@ context-os context "positioning"
 
 ---
 
-## Commands
+## Skills
 
-| Command | Purpose |
-|---------|---------|
-| `/quickstart` | Guided setup experience |
-| `/ingest` | Process raw content into the knowledge graph |
+Claude Code discovers and invokes these based on what you're doing — no slash commands to memorize.
+
+| Skill | When it fires |
+|-------|---------------|
+| `quickstart` | User wants to build a first Context OS or run initial setup |
+| `ingest` | User wants raw content (transcripts, docs, notes) turned into knowledge nodes |
+| `context-os-basics` | Foundation patterns for Context OS |
+| `context-os-cli` | Query work context, file heat, co-access, and graph structure |
+| `context-gap-analysis` | Check what already exists before building |
+| `epistemic-context-grounding` | Ground decisions in domain knowledge before designing |
+| `eval-loop` | Iterate systematically toward a quality target with automated backpressure |
+| `coordinated-agent-teams` | Decompose a spec into a multi-agent implementation plan |
 
 ---
 

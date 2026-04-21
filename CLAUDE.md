@@ -8,27 +8,26 @@
 
 Provides guided setup for creating a Context OS — a structured knowledge graph where AI compounds intelligence over time. The system uses stigmergic coordination: agents read and modify the shared environment, knowledge compounds through use.
 
-### Commands
-
-| Command | Purpose |
-|---------|---------|
-| `/quickstart` | 10-minute guided setup experience |
-| `/ingest` | Process raw content into knowledge graph |
-
 ### Skills
 
-| Skill | Purpose |
-|-------|---------|
-| `context-os-basics` | Foundation patterns for context OS |
+Claude Code discovers and fires these based on intent — no slash commands needed.
+
+| Skill | When it fires |
+|-------|---------------|
+| `quickstart` | User wants 10-minute guided setup of a new Context OS |
+| `ingest` | User wants raw content (transcripts, docs, notes) turned into knowledge nodes |
+| `context-os-basics` | Foundation patterns for Context OS |
+| `context-os-cli` | Query work context, file activity, heat metrics, and graph structure |
+| `context-gap-analysis` | Check what already exists before building |
 | `epistemic-context-grounding` | Ground decisions in domain knowledge before designing |
-| `context-gap-analysis` | Check what exists before building |
-| `context-os-cli` | Query work context, file activity, heat metrics, and knowledge graph via context-os CLI |
+| `eval-loop` | Iterate systematically toward a quality target with automated backpressure |
+| `coordinated-agent-teams` | Decompose a spec into a multi-agent implementation plan |
 
 ---
 
 ## Quick Start
 
-Run `/quickstart` to begin. The guide will:
+Say "run the quickstart" to begin — the `quickstart` skill fires. The guide will:
 
 1. Ask what your context OS is for (GTM, Product, Research)
 2. Create the two-layer directory structure (knowledge graph + operational docs)
