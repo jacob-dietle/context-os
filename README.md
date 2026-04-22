@@ -37,7 +37,7 @@ This quickstart was rebuilt from the ground up based on 4 months of production u
 
 Install [Claude Code](https://claude.ai/code) — the CLI for Claude.
 
-### 2. Context-OS CLI
+### 2. Context-OS CLI (FYI: this part of Context OS v2 is not fully finished yet)
 
 The context-os CLI gives your system structural intelligence — graph queries, file heat tracking, and behavioral co-access analysis.
 
